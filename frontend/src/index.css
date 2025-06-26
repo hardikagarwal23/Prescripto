@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+.active hr{
+display: block;
+}
+
+
+@media (max-width:740px) {
+ .active li{
+@apply text-white bg-primary rounded-lg;
+ }   
+}
+
+::-webkit-scrollbar{
+    display: none; 
+}
+
+
+.custom-spin .ant-spin-dot i {
+    color: #5F6FFF;
+    width:50px;
+    height:50px;
+  }
+  
+  .custom-spin .ant-spin-text {
+    color:rgb(131, 131, 131);
+    font-size:20px;
+  }
+  
